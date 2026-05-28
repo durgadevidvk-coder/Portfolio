@@ -1,8 +1,8 @@
 
 
-
-import { FaUsers, FaProjectDiagram, FaCoffee } from "react-icons/fa";
 import profile from "./assets/Images/dd image.jpeg";
+import { FaUsers, FaProjectDiagram, FaCoffee } from "react-icons/fa";
+
 
 function About() {
   return (

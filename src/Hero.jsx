@@ -1,5 +1,5 @@
 
-import profile from "./assets/Images/dd image.jpeg";
+import profile from "./assets/Images/dd-image.jpeg";
 function Hero() {
   return (
     <section

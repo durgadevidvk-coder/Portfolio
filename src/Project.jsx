@@ -13,7 +13,9 @@ import {
 import project1 from "./assets/Images/headphones 3.png";
 import project2 from "./assets/Images/outdoor toys.png";
 import project3 from "./assets/Images/vegan special 1.png";
-
+import project4 from "./assets/Images/shopping (20).webp";
+import project5 from "./assets/Images/aari5.jpeg";
+import project6 from "./assets/Images/serviceimg2.png";
 
 function Projects() {
   return (
@@ -45,7 +47,7 @@ function Projects() {
 
             <div className="relative overflow-hidden">
 
-              <img   src="./src/assets/Images/headphones 3.png"
+              <img   src={project1}
                 
                 alt="Portfolio Website"
                 className="w-full h-[260px] object-cover group-hover:scale-110 transition duration-500"
@@ -92,7 +94,7 @@ function Projects() {
             <div className="relative overflow-hidden">
 
               <img
-                src="./src/assets/Images/outdoor toys.png"
+                src={project2}
                 alt="Billing Software"
                 className="w-full h-[260px] object-cover group-hover:scale-110 transition duration-500"
               />
@@ -137,7 +139,7 @@ function Projects() {
             <div className="relative overflow-hidden">
 
               <img
-                src="./src/assets/Images/vegan special 1.png"
+                src={project3}
                 alt="E-Commerce Website"
                 className="w-full h-[260px] object-cover group-hover:scale-110 transition duration-500"
               />
@@ -182,7 +184,7 @@ function Projects() {
             <div className="relative overflow-hidden">
 
               <img
-                src="./src/assets/Images/shopping (20).webp"
+                src={project4}
                 alt="Food Delivery App"
                 className="w-full h-[260px] object-cover group-hover:scale-110 transition duration-500"
               />
@@ -227,7 +229,7 @@ function Projects() {
             <div className="relative overflow-hidden">
 
               <img
-                 src="./src/assets/Images/aari5.jpeg"
+                 src={project5}
                 alt="Weather App"
                 className="w-full h-[260px] object-cover group-hover:scale-110 transition duration-500"
               />
@@ -272,7 +274,7 @@ function Projects() {
             <div className="relative overflow-hidden">
 
               <img
-                src="./src/assets/Images/serviceimg2.png"
+                src={project6}
                 alt="Movie Booking App"
                 className="w-full h-[260px] object-cover group-hover:scale-110 transition duration-500"
               />

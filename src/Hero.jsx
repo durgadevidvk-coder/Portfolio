@@ -1,5 +1,5 @@
 
-
+import profile from "./assets/Images/dd image.jpeg";
 function Hero() {
   return (
     <section
@@ -79,7 +79,7 @@ function Hero() {
 
           {/* Image */}
           <img
-            src="./src/assets/Images/dd image.jpeg"
+            src={profile}
             alt="Durga Devi"
             className="relative w-[450px] md:w-[500px] object-cover rounded-3xl drop-shadow-2xl"
           />

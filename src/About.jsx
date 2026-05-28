@@ -22,7 +22,7 @@ function About() {
 
             {/* Profile Image */}
             <img
-              src="./src/assets/Images/dd image.jpeg"
+              src={profile}
               alt="Durga Devi"
               className="relative w-[380px] h-[380px] object-cover rounded-full border-8 border-white shadow-2xl"
             />
